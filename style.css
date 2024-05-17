@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -16,7 +17,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 main {
@@ -34,6 +35,11 @@ img {
     border-radius: 100%;
 }
 
+img:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
 #info-conteiner {
     display: flex;
     justify-content: center;
@@ -47,6 +53,7 @@ img {
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    font-size: 20px;
 }
 
 #studies-conteiner {
@@ -54,39 +61,49 @@ img {
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    font-size: 20px;
 }
 
 #button-conteiner {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    height: 100%;
+    gap: 25px;
+    padding: 120px;
 }
 
 button {
-    background-color: white;
-    color: black;
     border: none;
     cursor: pointer;
-    padding: 15px 150px;
-    border-radius: 19px;
+    padding: 15px 30px;
+    border-radius: 7px;
     transition: 0.3s;
-    font-size:15px;
+    font-size:20px;
 }
 
 button:hover {
     transform: scale(1.05);
 }
 
-#linkedinn{
-    background-color: rgb(23, 92, 161);
-    color: white;
+#linkedinn {
+    background-color: white;
+}
+
+#linkedinn:hover {
+    background-color: grey;
 }
 
 #githubb {
-    background-color: rgb(204, 182, 153);
-    color: white;
+    background-color: white;
 }
+
+#githubb:hover {
+    background-color: grey;
+}
+
+i {
+    color: black;
+}
+
 
 
